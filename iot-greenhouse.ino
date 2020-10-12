@@ -5,6 +5,7 @@
 ESP8266WebServer server(80);
 
 void handleRoot();
+void handleNotFound();
 
 void setup()
 {
@@ -24,6 +25,7 @@ void setup()
 	Serial.println(WiFi.localIP());
 
 	server.on("/", handleRoot);
+	server.onNotFound(handleNotFound);
 
 	server.begin();
 	Serial.println("HTTP server started");
@@ -37,4 +39,9 @@ void loop()
 void handleRoot()
 {
 	server.send(200, "text/plain", "Hello world!");
+}
+
+void handleNotFound()
+{
+	server.send(404, "text/plain", "404: Not found");
 }
