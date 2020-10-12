@@ -6,6 +6,7 @@ ESP8266WebServer server(80);
 
 void handleRoot();
 void handleNotFound();
+String getContentType(String filename);
 
 void setup()
 {
@@ -44,4 +45,12 @@ void handleRoot()
 void handleNotFound()
 {
 	server.send(404, "text/plain", "404: Not found");
+}
+
+String getContentType(String filename)
+{
+	if (filename.endsWith(".html"))
+		return "text/html";
+	else
+		return "text/plain";
 }
