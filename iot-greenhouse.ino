@@ -1,5 +1,6 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
+#include <FS.h>
 #include "credentials.h"
 
 ESP8266WebServer server(80);
@@ -24,6 +25,8 @@ void setup()
 
 	Serial.print("Connected, IP address: ");
 	Serial.println(WiFi.localIP());
+
+	SPIFFS.begin();
 
 	server.on("/", handleRoot);
 	server.onNotFound(handleNotFound);
