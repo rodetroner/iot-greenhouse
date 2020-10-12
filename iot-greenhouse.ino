@@ -6,8 +6,8 @@
 ESP8266WebServer server(80);
 
 void handleRoot();
-void handleNotFound();
 String getContentType(String filename);
+bool handleFileRead(String path);
 
 void setup()
 {
@@ -29,7 +29,10 @@ void setup()
 	SPIFFS.begin();
 
 	server.on("/", handleRoot);
-	server.onNotFound(handleNotFound);
+	server.onNotFound([]() {
+		if (!handleFileRead(server.uri()))
+			server.send(404, "text/plain", "404: Not found");
+	});
 
 	server.begin();
 	Serial.println("HTTP server started");
@@ -45,15 +48,24 @@ void handleRoot()
 	server.send(200, "text/plain", "Hello world!");
 }
 
-void handleNotFound()
-{
-	server.send(404, "text/plain", "404: Not found");
-}
-
 String getContentType(String filename)
 {
 	if (filename.endsWith(".html"))
 		return "text/html";
 	else
 		return "text/plain";
+}
+
+bool handleFileRead(String path)
+{
+	Serial.println("Handling file: " + path);
+	String contentType = getContentType(path);
+	if (SPIFFS.exists(path)) {
+		File file = SPIFFS.open(path, "r");
+		size_t sent = server.streamFile(file, contentType);
+		file.close();
+		return true;
+	}
+	Serial.println("File not found");
+	return false;
 }
