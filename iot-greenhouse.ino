@@ -58,7 +58,7 @@ String getContentType(String filename)
 
 bool handleFileRead(String path)
 {
-	Serial.println("Handling file: " + path);
+	Serial.println("File requested: " + path);
 	String contentType = getContentType(path);
 	if (SPIFFS.exists(path)) {
 		File file = SPIFFS.open(path, "r");
