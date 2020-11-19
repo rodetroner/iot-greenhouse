@@ -4,6 +4,9 @@
 #include "credentials.h"
 #include "ESPTemplateProcessor/ESPTemplateProcessor.h"
 
+unsigned long previousMillis = 0;
+const long interval = 1000;
+
 ESP8266WebServer server(80);
 
 void handleRoot();
@@ -51,5 +54,11 @@ void setup()
 
 void loop()
 {
+	unsigned long currentMillis = millis();
+
+	if (currentMillis - previousMillis >= interval) {
+		previousMillis = currentMillis;
+		Serial.println("One second passed");
+	}
 	server.handleClient();
 }
