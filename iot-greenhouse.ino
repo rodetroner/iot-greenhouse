@@ -29,7 +29,6 @@ void setup()
 
 	SPIFFS.begin();
 
-	server.on("/", handleRoot);
 	server.onNotFound([]() {
 		if (!handleFileRead(server.uri()))
 			server.send(404, "text/plain", "404: Not found");
@@ -44,11 +43,6 @@ void loop()
 	server.handleClient();
 }
 
-void handleRoot()
-{
-	server.send(200, "text/plain", "Hello world!");
-}
-
 String getContentType(String filename)
 {
 	if (filename.endsWith(".html"))
@@ -60,6 +54,8 @@ String getContentType(String filename)
 bool handleFileRead(String path)
 {
 	Serial.println("File requested: " + path);
+	if (path.endsWith("/"))
+		path += "index.html"
 	String contentType = getContentType(path);
 	if (SPIFFS.exists(path)) {
 		File file = SPIFFS.open(path, "r");
