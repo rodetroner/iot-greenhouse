@@ -2,6 +2,7 @@
 #include <ESP8266WebServer.h>
 #include <FS.h>
 #include "credentials.h"
+#include "ESPTemplateProcessor/ESPTemplateProcessor.h"
 
 ESP8266WebServer server(80);
 
