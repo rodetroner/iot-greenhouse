@@ -10,6 +10,20 @@ void handleRoot();
 String getContentType(String filename);
 bool handleFileRead(String path);
 
+String indexProcessor(const String& key)
+{
+	if (key == "TEMPERATURE")
+		return "?";
+
+	return "#ERROR#";
+}
+
+void handleRoot()
+{
+	if (!ESPTemplateProcessor(server).send(String("/index.html"), indexProcessor))
+		server.send(200, "text/plain", "File not found");
+}
+
 void setup()
 {
 	Serial.begin(115200);
@@ -29,10 +43,7 @@ void setup()
 
 	SPIFFS.begin();
 
-	server.onNotFound([]() {
-		if (!handleFileRead(server.uri()))
-			server.send(404, "text/plain", "404: Not found");
-	});
+	server.on("/", handleRoot);
 
 	server.begin();
 	Serial.println("HTTP server started");
@@ -41,28 +52,4 @@ void setup()
 void loop()
 {
 	server.handleClient();
-}
-
-String getContentType(String filename)
-{
-	if (filename.endsWith(".html"))
-		return "text/html";
-	else
-		return "text/plain";
-}
-
-bool handleFileRead(String path)
-{
-	Serial.println("File requested: " + path);
-	if (path.endsWith("/"))
-		path += "index.html";
-	String contentType = getContentType(path);
-	if (SPIFFS.exists(path)) {
-		File file = SPIFFS.open(path, "r");
-		size_t sent = server.streamFile(file, contentType);
-		file.close();
-		return true;
-	}
-	Serial.println("File not found");
-	return false;
 }
