@@ -2,12 +2,27 @@
 #include <ESP8266WebServer.h>
 #include <FS.h>
 #include "credentials.h"
+#include "ESPTemplateProcessor/ESPTemplateProcessor.h"
 
 ESP8266WebServer server(80);
 
 void handleRoot();
 String getContentType(String filename);
 bool handleFileRead(String path);
+
+String indexProcessor(const String& key)
+{
+	if (key == "TEMPERATURE")
+		return "?";
+
+	return "#ERROR#";
+}
+
+void handleRoot()
+{
+	if (!ESPTemplateProcessor(server).send(String("/index.html"), indexProcessor))
+		server.send(200, "text/plain", "File not found");
+}
 
 void setup()
 {
@@ -29,10 +44,6 @@ void setup()
 	SPIFFS.begin();
 
 	server.on("/", handleRoot);
-	server.onNotFound([]() {
-		if (!handleFileRead(server.uri()))
-			server.send(404, "text/plain", "404: Not found");
-	});
 
 	server.begin();
 	Serial.println("HTTP server started");
@@ -41,31 +52,4 @@ void setup()
 void loop()
 {
 	server.handleClient();
-}
-
-void handleRoot()
-{
-	server.send(200, "text/plain", "Hello world!");
-}
-
-String getContentType(String filename)
-{
-	if (filename.endsWith(".html"))
-		return "text/html";
-	else
-		return "text/plain";
-}
-
-bool handleFileRead(String path)
-{
-	Serial.println("File requested: " + path);
-	String contentType = getContentType(path);
-	if (SPIFFS.exists(path)) {
-		File file = SPIFFS.open(path, "r");
-		size_t sent = server.streamFile(file, contentType);
-		file.close();
-		return true;
-	}
-	Serial.println("File not found");
-	return false;
 }
