@@ -55,7 +55,7 @@ bool handleFileRead(String path)
 {
 	Serial.println("File requested: " + path);
 	if (path.endsWith("/"))
-		path += "index.html"
+		path += "index.html";
 	String contentType = getContentType(path);
 	if (SPIFFS.exists(path)) {
 		File file = SPIFFS.open(path, "r");
