@@ -3,10 +3,18 @@
 #include <FS.h>
 #include "credentials.h"
 #include "ESPTemplateProcessor/ESPTemplateProcessor.h"
+#include <OneWire.h>
+#include <DallasTemperature.h>
+
+const int oneWireBus = 4;
 
 unsigned long previousMillis = 0;
-const long interval = 1000;
+const long interval = 10000;
 
+float temperature = 0.0f;
+
+OneWire oneWire(oneWireBus);
+DallasTemperature sensors(&oneWire);
 ESP8266WebServer server(80);
 
 void handleRoot();
@@ -16,7 +24,7 @@ bool handleFileRead(String path);
 String indexProcessor(const String& key)
 {
 	if (key == "TEMPERATURE")
-		return "?";
+		return String(temperature);
 
 	return "#ERROR#";
 }
@@ -58,7 +66,9 @@ void loop()
 
 	if (currentMillis - previousMillis >= interval) {
 		previousMillis = currentMillis;
-		Serial.println("One second passed");
+		sensors.requestTemperatures();
+		temperature = sensors.getTempCByIndex(0);
+		Serial.print(temperature);
 	}
 	server.handleClient();
 }
