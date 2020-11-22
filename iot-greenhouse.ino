@@ -6,22 +6,20 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-const int oneWireBus = 4;
+const int one_wire_bus = 4;
 
-unsigned long previousMillis = 0;
+unsigned long previous_millis = 0;
 const long interval = 10000;
 
 float temperature = 0.0f;
 
-OneWire oneWire(oneWireBus);
+OneWire one_wire(one_wire_bus);
 DallasTemperature sensors(&oneWire);
 ESP8266WebServer server(80);
 
-void handleRoot();
-String getContentType(String filename);
-bool handleFileRead(String path);
+void handle_root();
 
-String indexProcessor(const String& key)
+String index_processor(const String& key)
 {
 	if (key == "TEMPERATURE")
 		return String(temperature);
@@ -29,9 +27,9 @@ String indexProcessor(const String& key)
 	return "#ERROR#";
 }
 
-void handleRoot()
+void handle_root()
 {
-	if (!ESPTemplateProcessor(server).send(String("/index.html"), indexProcessor))
+	if (!ESPTemplateProcessor(server).send(String("/index.html"), index_processor))
 		server.send(200, "text/plain", "File not found");
 }
 
@@ -54,7 +52,7 @@ void setup()
 
 	SPIFFS.begin();
 
-	server.on("/", handleRoot);
+	server.on("/", handle_root);
 
 	server.begin();
 	Serial.println("HTTP server started");
@@ -64,8 +62,8 @@ void loop()
 {
 	unsigned long currentMillis = millis();
 
-	if (currentMillis - previousMillis >= interval) {
-		previousMillis = currentMillis;
+	if (current_millis - previous_millis >= interval) {
+		previous_millis = current_millis;
 		sensors.requestTemperatures();
 		temperature = sensors.getTempCByIndex(0);
 		Serial.print(temperature);
