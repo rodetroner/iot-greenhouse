@@ -14,7 +14,7 @@ const long interval = 10000;
 float temperature = 0.0f;
 
 OneWire one_wire(one_wire_bus);
-DallasTemperature sensors(&oneWire);
+DallasTemperature sensors(&one_wire);
 ESP8266WebServer server(80);
 
 void handle_root();
@@ -60,7 +60,7 @@ void setup()
 
 void loop()
 {
-	unsigned long currentMillis = millis();
+	unsigned long current_millis = millis();
 
 	if (current_millis - previous_millis >= interval) {
 		previous_millis = current_millis;
