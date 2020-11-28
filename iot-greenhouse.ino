@@ -70,7 +70,7 @@ void loop()
 		previous_millis = current_millis;
 		sensors.requestTemperatures();
 		temperature = sensors.getTempCByIndex(0);
-		Serial.print("Current temperature (in degC):");
+		Serial.print("Current temperature (in degC): ");
 		Serial.println(temperature);
 	}
 	server.handleClient();
