@@ -14,7 +14,7 @@ const long interval = 10000;
 float temperature = 0.0f;
 
 OneWire one_wire(one_wire_bus);
-DallasTemperature sensors(&oneWire);
+DallasTemperature sensors(&one_wire);
 ESP8266WebServer server(80);
 
 void handle_root();
@@ -29,6 +29,10 @@ String index_processor(const String& key)
 
 void handle_root()
 {
+	if (server.method() == HTTP_GET) {
+		Serial.print("Time between open phases (in ms): ");
+		Serial.println(server.arg(0));
+	}
 	if (!ESPTemplateProcessor(server).send(String("/index.html"), index_processor))
 		server.send(200, "text/plain", "File not found");
 }
@@ -60,13 +64,14 @@ void setup()
 
 void loop()
 {
-	unsigned long currentMillis = millis();
+	unsigned long current_millis = millis();
 
 	if (current_millis - previous_millis >= interval) {
 		previous_millis = current_millis;
 		sensors.requestTemperatures();
 		temperature = sensors.getTempCByIndex(0);
-		Serial.print(temperature);
+		Serial.print("Current temperature (in degC): ");
+		Serial.println(temperature);
 	}
 	server.handleClient();
 }
