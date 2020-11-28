@@ -29,6 +29,10 @@ String index_processor(const String& key)
 
 void handle_root()
 {
+	if (server.method() == HTTP_GET) {
+		Serial.print("Time between open phases (in ms): ");
+		Serial.println(server.arg(0));
+	}
 	if (!ESPTemplateProcessor(server).send(String("/index.html"), index_processor))
 		server.send(200, "text/plain", "File not found");
 }
