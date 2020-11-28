@@ -11,7 +11,7 @@ const int one_wire_bus = 4;
 unsigned long previous_millis = 0;
 const long interval = 10000;
 
-const unsigned long valve_high_signal_length = 0;
+const unsigned long valve_low_signal_length = 0;
 
 float temperature = 0.0f;
 
@@ -32,9 +32,9 @@ String index_processor(const String& key)
 void handle_root()
 {
 	if (server.method() == HTTP_GET) {
-		valve_high_signal_length = server.arg(0);
+		valve_low_signal_length = server.arg(0);
 		Serial.print("Time between open phases (in ms): ");
-		Serial.println(valve_high_signal_length);
+		Serial.println(valve_low_signal_length);
 	}
 	if (!ESPTemplateProcessor(server).send(String("/index.html"), index_processor))
 		server.send(200, "text/plain", "File not found");
