@@ -3,11 +3,12 @@
 		<h1>Hello world!</h1>
 		<p>Temperature: %TEMPERATURE%</p>
 		<form>
-			<label for="off_length">Time between open phases (in milliseconds):</label>
-			<input type="number" name="off_length"><br>
-			<label for="on_length">Length of an open phase (in milliseconds):</label>
+			<label for="on_length">Timer for open stage (in milliseconds):</label>
 			<input type="number" name="on_length"><br>
+			<label for="off_length">Timer for closed stage (in milliseconds):</label>
+			<input type="number" name="off_length"><br>
 			<input type="submit" value="Apply">
 		</form>
+		<p>The open stage and the closed stage alternate in a cycle.</p>
 	</body>
 </html>
