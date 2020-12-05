@@ -11,7 +11,8 @@ const int one_wire_bus = 4;
 unsigned long previous_millis = 0;
 const long interval = 10000;
 
-const unsigned long valve_low_signal_length = 0;
+unsigned long open_phase_length = 2000;
+unsigned long closed_phase_length = 9000;
 
 float temperature = 0.0f;
 
