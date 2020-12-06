@@ -8,8 +8,8 @@
 
 const int one_wire_bus = 4;
 
-unsigned long previous_millis = 0;
-const long interval = 10000;
+unsigned long previous_temp_millis = 0;
+const long temp_measure_interval = 10000;
 
 unsigned long open_phase_length = 2000;
 unsigned long closed_phase_length = 9000;
@@ -69,8 +69,8 @@ void loop()
 {
 	unsigned long current_millis = millis();
 
-	if (current_millis - previous_millis >= interval) {
-		previous_millis = current_millis;
+	if (current_millis - previous_temp_millis  >=  temp_measure_interval) {
+		previous_temp_millis = current_millis;
 		sensors.requestTemperatures();
 		temperature = sensors.getTempCByIndex(0);
 		Serial.print("Current temperature (in degC): ");
