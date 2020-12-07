@@ -8,10 +8,14 @@
 
 const int one_wire_bus = 4;
 
-unsigned long previous_millis = 0;
-const long interval = 10000;
+unsigned long previous_temp_millis = 0;
+unsigned long previous_valve_millis = 0;
 
-const unsigned long valve_low_signal_length = 0;
+const long temp_measure_interval = 10000;
+unsigned long valve_on_interval = 2000;
+unsigned long valve_off_interval = 9000;
+
+int valve_state = LOW;
 
 float temperature = 0.0f;
 
@@ -32,9 +36,9 @@ String index_processor(const String& key)
 void handle_root()
 {
 	if (server.method() == HTTP_GET) {
-		valve_low_signal_length = server.arg(0);
+		valve_off_interval = server.arg(0).toInt();
 		Serial.print("Time between open phases (in ms): ");
-		Serial.println(valve_low_signal_length);
+		Serial.println(valve_off_interval);
 	}
 	if (!ESPTemplateProcessor(server).send(String("/index.html"), index_processor))
 		server.send(200, "text/plain", "File not found");
@@ -62,18 +66,32 @@ void setup()
 
 	server.begin();
 	Serial.println("HTTP server started");
+
+	Serial.println("Valve closed");
 }
 
 void loop()
 {
 	unsigned long current_millis = millis();
 
-	if (current_millis - previous_millis >= interval) {
-		previous_millis = current_millis;
+	if (current_millis - previous_temp_millis >= temp_measure_interval) {
+		previous_temp_millis = current_millis;
 		sensors.requestTemperatures();
 		temperature = sensors.getTempCByIndex(0);
 		Serial.print("Current temperature (in degC): ");
 		Serial.println(temperature);
 	}
+
+	if (current_millis - previous_valve_millis >= valve_off_interval  &&  valve_state == LOW) {
+		previous_valve_millis = current_millis;
+		valve_state = HIGH;
+		Serial.println("Valve open");
+		}
+	else if (current_millis - previous_valve_millis >= valve_on_interval  &&  valve_state == HIGH) {
+		previous_valve_millis = current_millis;
+		valve_state = LOW;
+		Serial.println("Valve closed");
+	}
+
 	server.handleClient();
 }
