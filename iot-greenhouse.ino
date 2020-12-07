@@ -66,18 +66,32 @@ void setup()
 
 	server.begin();
 	Serial.println("HTTP server started");
+
+	Serial.println("Valve closed");
 }
 
 void loop()
 {
 	unsigned long current_millis = millis();
 
-	if (current_millis - previous_temp_millis  >=  temp_measure_interval) {
+	if (current_millis - previous_temp_millis >= temp_measure_interval) {
 		previous_temp_millis = current_millis;
 		sensors.requestTemperatures();
 		temperature = sensors.getTempCByIndex(0);
 		Serial.print("Current temperature (in degC): ");
 		Serial.println(temperature);
 	}
+
+	if (current_millis - previous_valve_millis >= valve_off_interval  &&  valve_state == LOW) {
+		previous_valve_millis = current_millis;
+		valve_state = HIGH;
+		Serial.println("Valve open");
+		}
+	else if (current_millis - previous_valve_millis >= valve_on_interval  &&  valve_state == HIGH) {
+		previous_valve_millis = current_millis;
+		valve_state = LOW;
+		Serial.println("Valve closed");
+	}
+
 	server.handleClient();
 }
