@@ -7,6 +7,7 @@
 #include <DallasTemperature.h>
 
 const int one_wire_bus = 4;
+const int valve_pin = 5;
 
 unsigned long previous_temp_millis = 0;
 unsigned long previous_valve_millis = 0;
@@ -45,6 +46,8 @@ void handle_root()
 }
 void setup()
 {
+	pinMode(valve_pin, OUTPUT);
+
 	Serial.begin(115200);
 	Serial.println();
 
@@ -85,11 +88,13 @@ void loop()
 	if (current_millis - previous_valve_millis >= valve_off_interval  &&  valve_state == LOW) {
 		previous_valve_millis = current_millis;
 		valve_state = HIGH;
+		digitalWrite(valve_pin, valve_state);
 		Serial.println("Valve open");
 		}
 	else if (current_millis - previous_valve_millis >= valve_on_interval  &&  valve_state == HIGH) {
 		previous_valve_millis = current_millis;
 		valve_state = LOW;
+		digitalWrite(valve_pin, valve_state);
 		Serial.println("Valve closed");
 	}
 
