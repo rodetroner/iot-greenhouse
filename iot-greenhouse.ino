@@ -12,7 +12,7 @@ const int valve_pin = 5;
 unsigned long previous_temp_millis = 0;
 unsigned long previous_valve_millis = 0;
 
-const long temp_measure_interval = 10000;
+const unsigned long temp_measure_interval = 10000;
 unsigned long valve_open_interval = 2000;
 unsigned long valve_closed_interval = 9000;
 
@@ -37,9 +37,17 @@ String index_processor(const String& key)
 void handle_root()
 {
 	if (server.method() == HTTP_GET) {
-		valve_closed_interval = server.arg(0).toInt();
-		Serial.print("Time between open phases (in ms): ");
-		Serial.println(valve_closed_interval);
+		if (server.arg("open_phase_length") != "") {
+			valve_open_interval = server.arg("open_phase_length").toInt();
+			Serial.print("open_phase_length set to: ");
+			Serial.println(valve_open_interval);
+		}
+
+		if (server.arg("closed_phase_length") != "") {
+			valve_closed_interval = server.arg("closed_phase_length").toInt();
+			Serial.print("valve_closed_interval set to: ");
+			Serial.println(valve_closed_interval);
+		}
 	}
 	if (!ESPTemplateProcessor(server).send(String("/index.html"), index_processor))
 		server.send(200, "text/plain", "File not found");
