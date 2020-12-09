@@ -13,8 +13,8 @@ unsigned long previous_temp_millis = 0;
 unsigned long previous_valve_millis = 0;
 
 const long temp_measure_interval = 10000;
-unsigned long valve_on_interval = 2000;
-unsigned long valve_off_interval = 9000;
+unsigned long valve_open_interval = 2000;
+unsigned long valve_closed_interval = 9000;
 
 int valve_state = LOW;
 
@@ -37,9 +37,9 @@ String index_processor(const String& key)
 void handle_root()
 {
 	if (server.method() == HTTP_GET) {
-		valve_off_interval = server.arg(0).toInt();
+		valve_closed_interval = server.arg(0).toInt();
 		Serial.print("Time between open phases (in ms): ");
-		Serial.println(valve_off_interval);
+		Serial.println(valve_closed_interval);
 	}
 	if (!ESPTemplateProcessor(server).send(String("/index.html"), index_processor))
 		server.send(200, "text/plain", "File not found");
@@ -85,13 +85,14 @@ void loop()
 		Serial.println(temperature);
 	}
 
-	if (current_millis - previous_valve_millis >= valve_off_interval  &&  valve_state == LOW) {
+	if (current_millis - previous_valve_millis >= valve_closed_interval  &&  valve_state == LOW) {
 		previous_valve_millis = current_millis;
 		valve_state = HIGH;
 		digitalWrite(valve_pin, valve_state);
 		Serial.println("Valve open");
 		}
-	else if (current_millis - previous_valve_millis >= valve_on_interval  &&  valve_state == HIGH) {
+	else if (current_millis - previous_valve_millis >= valve_open_interval  &&
+			valve_state == HIGH) {
 		previous_valve_millis = current_millis;
 		valve_state = LOW;
 		digitalWrite(valve_pin, valve_state);
