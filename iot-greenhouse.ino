@@ -38,7 +38,7 @@ void handle_root()
 {
 	if (server.method() == HTTP_GET) {
 		valve_closed_interval = server.arg(0).toInt();
-		Serial.print("Time between open phases (in ms): ");
+		Serial.print("valve_closed_interval set to: ");
 		Serial.println(valve_closed_interval);
 	}
 	if (!ESPTemplateProcessor(server).send(String("/index.html"), index_processor))
