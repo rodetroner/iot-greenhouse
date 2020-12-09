@@ -12,7 +12,7 @@ const int valve_pin = 5;
 unsigned long previous_temp_millis = 0;
 unsigned long previous_valve_millis = 0;
 
-const long temp_measure_interval = 10000;
+const unsigned long temp_measure_interval = 10000;
 unsigned long valve_open_interval = 2000;
 unsigned long valve_closed_interval = 9000;
 
