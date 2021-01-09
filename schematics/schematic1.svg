@@ -1,1 +1,557 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="414" height="364"><defs><linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-ffffff-1-ffffff-1-s-0"><stop offset="0%" style="stop-color:#ffffff"/><stop offset="100%" style="stop-color:#ffffff"/></linearGradient></defs><g transform=" scale(0.5) translate(-716,-256)"><rect x="760" y="300" width="240" height="680" fill="url(#mx-gradient-ffffff-1-ffffff-1-s-0)" stroke="#000000" stroke-width="2" pointer-events="none"/><rect x="1038" y="358" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 360 L 1038 360" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="367.5">D0</text></g><rect x="1038" y="398" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 400 L 1038 400" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="407.5">D1</text></g><rect x="1038" y="438" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 440 L 1038 440" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="447.5">D2</text></g><rect x="1038" y="478" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 480 L 1038 480" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="487.5">D3</text></g><rect x="1038" y="518" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 520 L 1038 520" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="527.5">D4</text></g><rect x="1038" y="558" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 560 L 1038 560" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="567.5">3V3</text></g><rect x="1038" y="598" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 600 L 1038 600" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="607.5">GND</text></g><rect x="1038" y="638" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 640 L 1038 640" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="647.5">D5</text></g><rect x="1038" y="678" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 680 L 1038 680" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="687.5">D6</text></g><rect x="1038" y="718" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 720 L 1038 720" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="727.5">D7</text></g><rect x="1038" y="758" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 760 L 1038 760" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="767.5">D8</text></g><rect x="1038" y="798" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 800 L 1038 800" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="807.5">RX</text></g><rect x="1038" y="838" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 840 L 1038 840" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="847.5">TX</text></g><rect x="1038" y="878" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 880 L 1038 880" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="887.5">GND</text></g><rect x="1038" y="918" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1002 920 L 1038 920" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="995" y="927.5">3V3</text></g><rect x="718" y="438" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 440 L 758 440" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="447.5">RSV</text></g><rect x="718" y="558" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 560 L 758 560" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="567.5">SD1</text></g><rect x="718" y="638" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 640 L 758 640" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="647.5">SD0</text></g><rect x="718" y="718" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 720 L 758 720" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="727.5">GND</text></g><rect x="718" y="798" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 800 L 758 800" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="807.5">EN</text></g><rect x="718" y="358" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 360 L 758 360" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="367.5">A0</text></g><rect x="718" y="398" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 400 L 758 400" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="407.5">RSV</text></g><rect x="718" y="478" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 480 L 758 480" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="487.5">SD3</text></g><rect x="718" y="518" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 520 L 758 520" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="527.5">SD2</text></g><rect x="718" y="598" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 600 L 758 600" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="607.5">CMD</text></g><rect x="718" y="678" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 680 L 758 680" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="687.5">CLK</text></g><rect x="718" y="758" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 760 L 758 760" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="767.5">3V3</text></g><rect x="718" y="838" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 840 L 758 840" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="847.5">RST</text></g><rect x="718" y="878" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 880 L 758 880" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="887.5">GND</text></g><rect x="718" y="918" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 722 920 L 758 920" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="764" y="927.5">Vin</text></g><rect x="740" y="260" width="280" height="28" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="880" y="282">NODE MCU DEVKIT V1.0</text></g><rect x="720" y="300" width="28" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="734" y="321">U1</text></g><rect x="1478" y="638" width="4" height="4" fill="#000000" stroke="none" transform="translate(1500,0)scale(-1,1)translate(-1500,0)rotate(-180,1500,700)" pointer-events="none"/><rect x="1478" y="758" width="4" height="4" fill="#000000" stroke="none" transform="translate(1500,0)scale(-1,1)translate(-1500,0)rotate(-180,1500,700)" pointer-events="none"/><path d="M 1464 684.51 C 1508 684.51 1496 684.51 1496 684.51" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" transform="translate(1500,0)scale(-1,1)translate(-1500,0)rotate(-180,1500,700)" pointer-events="none"/><path d="M 1479.72 685.07 C 1479.72 685.07 1479.72 685.07 1464 714.51 C 1495.44 714.51 1495.44 714.51 1495.44 714.51 Z" fill="#000000" stroke="#000000" stroke-width="2.98" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="translate(1500,0)scale(-1,1)translate(-1500,0)rotate(-180,1500,700)" pointer-events="none"/><path d="M 1480 642 L 1480 758" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" transform="translate(1500,0)scale(-1,1)translate(-1500,0)rotate(-180,1500,700)" pointer-events="none"/><path d="M 1516.49 677.54 L 1524.98 686.03 L 1530.64 671.89 Z" fill="#000000" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="square" stroke-miterlimit="10" transform="translate(1500,0)scale(-1,1)translate(-1500,0)rotate(-180,1500,700)" pointer-events="none"/><path d="M 1508.01 694.45 L 1524.98 677.48" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="translate(1500,0)scale(-1,1)translate(-1500,0)rotate(-180,1500,700)" pointer-events="none"/><path d="M 1513.14 655.43 L 1521.62 663.91 L 1527.28 649.77 Z" fill="#000000" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="translate(1500,0)scale(-1,1)translate(-1500,0)rotate(-180,1500,700)" pointer-events="none"/><path d="M 1504.65 672.43 L 1521.62 655.46" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="translate(1500,0)scale(-1,1)translate(-1500,0)rotate(-180,1500,700)" pointer-events="none"/><rect x="1500" y="660" width="24" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="1512" y="681">L1</text></g><rect x="1478" y="478" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><rect x="1478" y="598" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1480 482 L 1480 502" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><path d="M 1480 578 L 1480 598" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><path d="M 1466 504 C 1492.78 503.64 1494 504 1494 504 L 1494 576 L 1466 576 Z" fill="#ffffff" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/><rect x="1500" y="500" width="28" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="1514" y="521">R1</text></g><rect x="1500" y="540" width="40" height="28" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="1520" y="562">330</text></g><rect x="1260" y="620" width="80" height="120" fill="url(#mx-gradient-ffffff-1-ffffff-1-s-0)" stroke="#000000" stroke-width="2" pointer-events="none"/><rect x="1218" y="678" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1222 680 L 1258 680" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="1264" y="687.5">DQ</text></g><rect x="1220" y="620" width="28" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="1234" y="641">U2</text></g><rect x="1298" y="578" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1300 582 L 1300 618" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="1299.5" y="646">VDD</text></g><rect x="1298" y="778" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1300 742 L 1300 778" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="1299.5" y="729">GND</text></g><rect x="1320" y="580" width="108" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="1374" y="601">DS18B20+</text></g><rect x="1198" y="698" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><rect x="1198" y="818" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1200 702 L 1200 722" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><path d="M 1200 798 L 1200 818" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><path d="M 1186 724 C 1212.78 723.64 1214 724 1214 724 L 1214 796 L 1186 796 Z" fill="#ffffff" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/><rect x="1180" y="720" width="28" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="1176" y="741">R2</text></g><rect x="1180" y="760" width="46" height="28" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="1176" y="782">4.7k</text></g><path d="M 1040 440 L 1200 440 L 1200 680 L 1220 680" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 1040 560 L 1300 560 L 1300 580" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 1040 400 L 1480 400 L 1480 480" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 1480 600 L 1480 640" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 1200 700 L 1200 684" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><ellipse cx="1200" cy="680" rx="4" ry="4" fill="#000000" stroke="#000000" stroke-width="4" pointer-events="none"/><path d="M 1300 780 L 1300 860 L 1200 860 L 1200 820" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 1040 600 L 1120 600 L 1120 860 L 1196 860" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><ellipse cx="1200" cy="860" rx="4" ry="4" fill="#000000" stroke="#000000" stroke-width="4" pointer-events="none"/><path d="M 1480 760 L 1480 860 L 1304 860" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><ellipse cx="1300" cy="860" rx="4" ry="4" fill="#000000" stroke="#000000" stroke-width="4" pointer-events="none"/></g></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="479"
+     height="358">
+    <defs/>
+    <g transform=" scale(1) translate(-715.828125,-166)">
+        <rect x="899" y="209" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="229" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="249" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="269" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="289" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="309" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="329" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="349" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="369" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="389" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="409" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="429" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="449" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="469" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="899" y="489" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="209" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="229" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="249" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="269" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="289" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="309" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="329" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="349" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="369" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="389" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="409" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="429" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="449" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="469" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="729" y="489" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="750" y="190" width="130" height="320" fill="#ffffff"
+              stroke="black" stroke-width="2" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="214">
+                D0
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 210 L 880 210" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="234">
+                D1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 230 L 880 230" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="254">
+                D2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 250 L 880 250" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="274">
+                D3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 270 L 880 270" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="294">
+                D4
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 290 L 880 290" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="314">
+                3V3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 310 L 880 310" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="334">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 330 L 880 330" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="354">
+                D5
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 350 L 880 350" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="374">
+                D6
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 370 L 880 370" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="394">
+                D7
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 390 L 880 390" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="414">
+                D8
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 410 L 880 410" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="434">
+                RX
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 430 L 880 430" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="454">
+                TX
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 450 L 880 450" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="474">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 470 L 880 470" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px">
+            <text x="873" y="494">
+                3V3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 900 490 L 880 490" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="214">
+                A0
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 210 L 750 210" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="234">
+                RSV
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 230 L 750 230" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="254">
+                RSV
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 250 L 750 250" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="274">
+                SD3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 270 L 750 270" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="294">
+                SD2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 290 L 750 290" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="314">
+                SD1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 310 L 750 310" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="334">
+                CMD
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 330 L 750 330" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="354">
+                SD0
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 350 L 750 350" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="374">
+                CLK
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 370 L 750 370" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="394">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 390 L 750 390" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="414">
+                3V3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 410 L 750 410" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="434">
+                EN
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 430 L 750 430" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="454">
+                RST
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 450 L 750 450" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="474">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 470 L 750 470" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="757" y="494">
+                Vin
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 731 490 L 750 490" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="740" y="170" width="151" height="16" fill-opacity="0"
+              fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold"
+           text-anchor="middle" font-size="12px">
+            <text x="815.5" y="183">
+                NODE MCU DEVKIT V1.0
+            </text>
+        </g>
+        <rect x="720" y="180" width="17" height="13" fill-opacity="0"
+              fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold"
+           text-anchor="middle" font-size="12px">
+            <text x="728.5" y="191.5">
+                U1
+            </text>
+        </g>
+        <rect x="1159" y="259" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="1159" y="319" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <path d="M 1160 261 L 1160 271" fill="#000000" stroke="#000000"
+              stroke-width="2" stroke-linecap="square" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 1160 309 L 1160 319" fill="#000000" stroke="#000000"
+              stroke-width="2" stroke-linecap="square" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 1153 272 C 1166.39 271.82 1167 272 1167 272 L 1167 308 L 1153 308 Z"
+              fill="#ffffff" stroke="#000000" stroke-width="2"
+              stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="1170" y="270" width="17" height="13" fill-opacity="0"
+              fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold"
+           text-anchor="middle" font-size="12px">
+            <text x="1178.5" y="281.5">
+                R1
+            </text>
+        </g>
+        <rect x="1170" y="290" width="18" height="13" fill-opacity="0"
+              fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold"
+           text-anchor="middle" font-size="12px">
+            <text x="1179" y="301.5">
+                330
+            </text>
+        </g>
+        <rect x="1049" y="329" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="999" y="389" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="1049" y="449" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="1020" y="350" width="60" height="80" fill="#ffffff"
+              stroke="black" stroke-width="2" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px" transform="rotate(-90,1057,357)">
+            <text x="1057" y="355">
+                VDD
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 1050 331 L 1050 350" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px">
+            <text x="1027" y="394">
+                DQ
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 1001 390 L 1020 390" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="end"
+           font-size="11px" transform="rotate(-270,1043,423)">
+            <text x="1043" y="421">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="11px"/>
+        <path d="M 1050 450 L 1050 430" fill="none" stroke="black"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="1020" y="330" width="17" height="13" fill-opacity="0"
+              fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold"
+           text-anchor="middle" font-size="12px">
+            <text x="1028.5" y="341.5">
+                U2
+            </text>
+        </g>
+        <rect x="1060" y="330" width="63" height="13" fill-opacity="0"
+              fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold"
+           text-anchor="middle" font-size="12px">
+            <text x="1091.5" y="341.5">
+                DS18B20+
+            </text>
+        </g>
+        <rect x="989" y="319" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <rect x="989" y="379" width="2" height="2" fill="#000000" stroke="none"
+              pointer-events="none"/>
+        <path d="M 990 321 L 990 331" fill="#000000" stroke="#000000"
+              stroke-width="2" stroke-linecap="square" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 990 369 L 990 379" fill="#000000" stroke="#000000"
+              stroke-width="2" stroke-linecap="square" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 983 332 C 996.39 331.82 997 332 997 332 L 997 368 L 983 368 Z"
+              fill="#ffffff" stroke="#000000" stroke-width="2"
+              stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="960" y="330" width="17" height="13" fill-opacity="0"
+              fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold"
+           text-anchor="middle" font-size="12px">
+            <text x="968.5" y="341.5">
+                R2
+            </text>
+        </g>
+        <rect x="950" y="350" width="25" height="13" fill-opacity="0"
+              fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold"
+           text-anchor="middle" font-size="12px">
+            <text x="962.5" y="361.5">
+                4.7k
+            </text>
+        </g>
+        <rect x="1159" y="339" width="2" height="2" fill="#000000" stroke="none"
+              transform="translate(0,370)scale(1,-1)translate(0,-370)"
+              pointer-events="none"/>
+        <rect x="1159" y="399" width="2" height="2" fill="#000000" stroke="none"
+              transform="translate(0,370)scale(1,-1)translate(0,-370)"
+              pointer-events="none"/>
+        <path d="M 1152 362.26 C 1174 362.26 1168 362.26 1168 362.26"
+              fill="none" stroke="#000000" stroke-width="2"
+              stroke-linecap="round" stroke-miterlimit="10"
+              transform="translate(0,370)scale(1,-1)translate(0,-370)"
+              pointer-events="none"/>
+        <path d="M 1159.86 362.54 C 1159.86 362.54 1159.86 362.54 1152 377.26 C 1167.72 377.26 1167.72 377.26 1167.72 377.26 Z"
+              fill="#000000" stroke="#000000" stroke-width="1.49"
+              stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10"
+              transform="translate(0,370)scale(1,-1)translate(0,-370)"
+              pointer-events="none"/>
+        <path d="M 1160 341 L 1160 399" fill="#000000" stroke="#000000"
+              stroke-width="2" stroke-linecap="square" stroke-miterlimit="10"
+              transform="translate(0,370)scale(1,-1)translate(0,-370)"
+              pointer-events="none"/>
+        <path d="M 1178.25 358.77 L 1182.49 363.01 L 1185.32 355.94 Z"
+              fill="#000000" stroke="#000000" stroke-linejoin="round"
+              stroke-linecap="square" stroke-miterlimit="10"
+              transform="translate(0,370)scale(1,-1)translate(0,-370)"
+              pointer-events="none"/>
+        <path d="M 1174 367.23 L 1182.49 358.74" fill="none" stroke="#000000"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10"
+              transform="translate(0,370)scale(1,-1)translate(0,-370)"
+              pointer-events="none"/>
+        <path d="M 1176.57 347.71 L 1180.81 351.96 L 1183.64 344.89 Z"
+              fill="#000000" stroke="#000000" stroke-linejoin="round"
+              stroke-linecap="round" stroke-miterlimit="10"
+              transform="translate(0,370)scale(1,-1)translate(0,-370)"
+              pointer-events="none"/>
+        <path d="M 1172.33 356.22 L 1180.81 347.73" fill="none" stroke="#000000"
+              stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+              stroke-miterlimit="10"
+              transform="translate(0,370)scale(1,-1)translate(0,-370)"
+              pointer-events="none"/>
+        <rect x="1170" y="350" width="14" height="13" fill-opacity="0"
+              fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold"
+           text-anchor="middle" font-size="12px">
+            <text x="1177" y="361.5">
+                L1
+            </text>
+        </g>
+        <path d="M 900 230 L 1160 230 L 1160 260" fill="none" stroke="#000000"
+              stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1160 320 L 1160 340" fill="none" stroke="#000000"
+              stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1000 390 L 990 390 L 990 380" fill="none" stroke="#000000"
+              stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 900 310 L 1050 310 L 1050 330" fill="none" stroke="#000000"
+              stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 990 320 L 990 312" fill="none" stroke="#000000"
+              stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="990" cy="310" rx="2" ry="2" fill="#000000" stroke="#000000"
+                 stroke-width="2" pointer-events="none"/>
+        <path d="M 900 250 L 940 250 L 940 390 L 988 390" fill="none"
+              stroke="#000000" stroke-width="2" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <ellipse cx="990" cy="390" rx="2" ry="2" fill="#000000" stroke="#000000"
+                 stroke-width="2" pointer-events="none"/>
+        <path d="M 900 330 L 920 330 L 920 460 L 1050 460 L 1050 450"
+              fill="none" stroke="#000000" stroke-width="2"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1160 400 L 1160 460 L 1052 460" fill="none" stroke="#000000"
+              stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1050" cy="460" rx="2" ry="2" fill="#000000"
+                 stroke="#000000" stroke-width="2" pointer-events="none"/>
+    </g>
+</svg>
